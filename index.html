@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMA</title>
+    <meta name="description" content="Um espaço de cuidado para quem vive uma relação difícil com a comida. Atendimento especializado em transtornos alimentares, comer transtornado, seletividade e obesidade.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon-apple.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="#home" class="logo-text">EQUIPE <span class="logo-soma">S<span class="circle-o">O</span>MA</span></a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#pilares">Nossa Abordagem</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#contato" class="btn-nav">Agendar Consulta</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Abrir menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            
+            <!-- NOVO: Vídeo de Fundo -->
+            <video autoplay loop muted playsinline class="hero-video">
+                <source src="assets/video.mp4" type="video/mp4">
+            </video>
+            
+            <!-- NOVO: Camada translúcida para garantir a leitura do texto escuro -->
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="soma-hero-title">
+                        Equipe especializada em<br>
+                        <span class="letra-destaque">S</span>aúde, 
+                        <span class="letra-destaque">O</span>besidade e<br>
+                        <span class="letra-destaque">M</span>anejo 
+                        <span class="letra-destaque">A</span>limentar.
+                    </h1>
+                </div>
+            </div> <!-- Fim do .hero-container -->
+
+            <!-- NOVO: Seta de rolagem animada -->
+            <a href="#pilares" class="scroll-indicator" aria-label="Rolar para Nossa Abordagem">
+                <img src="assets/seta.png" alt="Rolar para baixo" class="seta-img">
+            </a>
+
+            <!-- NOVO: Efeito de transição suave para a próxima seção -->
+            <div class="hero-bottom-fade"></div>
+
+        </section> <!-- Fim do #home -->
+
+<section id="pilares" class="about-section">
+    <div class="container">
+        
+        <!-- NOVO: Logo SOMA Centralizada -->
+        <div style="text-align: center; margin-bottom: 3.5rem;">
+            <span class="logo-soma" style="font-size: clamp(3rem, 6vw, 4rem); display: inline-block; margin-top: 0;">
+                S<span class="circle-o">O</span>MA
+            </span>
+        </div>
+        <div class="pilares-container">
+            
+            <!-- CARD 1: Escuta -->
+            <div class="flip-card fade-on-scroll">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <!-- Substitua os emojis por ícones SVG quando puder -->
+                        <div class="icon-wrapper">✨</div>
+                        <h3>Saúde</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Um ambiente seguro, acolhedor e confidencial onde você é ouvido(a) com profundidade e sem qualquer tipo de julgamento.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2: Ciência -->
+            <div class="flip-card fade-on-scroll" style="transition-delay: 0.1s;">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="icon-wrapper">🔬</div>
+                        <h3>Obesidade</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Condutas baseadas nas mais sólidas e atuais evidências científicas na área da saúde mental e nutrição comportamental.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 3: Ética -->
+            <div class="flip-card fade-on-scroll" style="transition-delay: 0.2s;">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="icon-wrapper">⚖️</div>
+                        <h3>Ética</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Atuação profissional pautada pelo respeito absoluto à autonomia, sigilo e integridade de cada paciente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 4: Respeito -->
+            <div class="flip-card fade-on-scroll" style="transition-delay: 0.3s;">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <div class="icon-wrapper">🌱</div>
+                        <h3>Respeito</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Honramos a trajetória, as dores, os ritmos e a história singular de cada corpo que chega até nós.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <section id="especialidades" class="specialties-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Como podemos ajudar você?</h2>
+                    <p class="section-subtitle">Atendemos pessoas que buscam fazer as pazes com a mesa através de um olhar integrativo.</p>
+                </div>
+
+                <div class="specialties-grid">
+                    <div class="specialty-item">
+                        <div class="specialty-content">
+                            <h3>Transtornos Alimentares</h3>
+                            <p>Tratamento especializado e multiprofissional para anorexia, bulimia, transtorno da compulsão alimentar (TCA) e outros quadros, focando na recuperação integral.</p>
+                        </div>
+                    </div>
+                    <div class="specialty-item">
+                        <div class="specialty-content">
+                            <h3>Comer Transtornado</h3>
+                            <p>Suporte para quem não tem um diagnóstico fechado, mas vive em um ciclo exaustivo de dietas restritivas, culpa crônica ou ansiedade excessiva ao comer.</p>
+                        </div>
+                    </div>
+                    <div class="specialty-item">
+                        <div class="specialty-content">
+                            <h3>Seletividade Alimentar</h3>
+                            <p>Abordagem gentil, gradual e respeitosa para expandir o repertório alimentar, trazendo mais conforto e prazer no momento das refeições.</p>
+                        </div>
+                    </div>
+                    <div class="specialty-item">
+                        <div class="specialty-content">
+                            <h3>Obesidade</h3>
+                            <p>Cuidado integral e humanizado, completamente livre de estigmas de peso, focado na melhora real da saúde física e do bem-estar mental.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+<section id="equipe" class="team-section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Nossa Família</span>
+            <h2>Conheça nosso time</h2>
+            <p class="section-subtitle">Profissionais altamente qualificadas e prontas para te acolher em cada etapa do seu processo.</p>
+        </div>
+    </div>
+
+    <div class="marquee-container">
+        <div class="marquee-track" id="track">
+            <a href="equipe/juliana.html" class="team-link">
+                <img src="equipe/equipe/juliana.jpg" alt="Dra. Juliana Bastos" data-caption="Dra. Juliana — Psiquiatra" />
+            </a>
+            <a href="equipe/camilla.html" class="team-link">
+                <img src="equipe/equipe/camilla.jpg" alt="Camilla" data-caption="Camilla — Nutricionista" />
+            </a>
+            <a href="equipe/ana.html" class="team-link">
+                <img src="equipe/equipe/ana.jpg" alt="Dra. Ana Lúcia" data-caption="Dra. Ana Lúcia — Pediatra" />
+            </a>
+            <a href="equipe/eliana.html" class="team-link">
+                <img src="equipe/equipe/eliana.png" alt="Dra. Eliana" data-caption="Dra. Eliana — Endócrina" />
+            </a>
+            <a href="equipe/ligia.html" class="team-link">
+                <img src="equipe/equipe/ligia.jpg" alt="Ligia" data-caption="Ligia — Nutricionista" />
+            </a>
+            <a href="equipe/nathalia.html" class="team-link">
+                <img src="equipe/equipe/nathalia.jpg" alt="Nathalia" data-caption="Nathalia — Psicóloga" />
+            </a>
+        </div>
+        
+        <div id="marquee-caption" class="marquee-caption" aria-live="polite"></div>
+    </div>
+</section>
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <p class="footer-logo">EQUIPE SOMA</p>
+                <p class="footer-quote">"Porque alimentação também é comportamento, emoção e contexto."</p>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2026 Equipe SOMA. Todos os direitos reservados.</p>
+                <p>Atendimentos presenciais e online.</p>
+            </div>
+        </div>
+    </footer>
+    
+<a href="https://wa.me/SEUNUMERO" class="btn-whatsapp-fixed" target="_blank" rel="noopener noreferrer">
+    <span class="whatsapp-tooltip">Fale conosco</span>
+    <img src="assets/wttzp.png" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
